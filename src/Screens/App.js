@@ -1,4 +1,5 @@
 import "./App.css"
+import Footer from "../Footer/Footer";
 function App() {
     return (
         <div id="body">
@@ -30,9 +31,9 @@ function App() {
                 <img src="../assets/girl.png" alt="Girl Studying With Phone"></img>
                 <p></p>
             </main>
-            <footer>
-
-            </footer>
+          <Footer>
+            
+          </Footer>
         </div>
     );
 }
