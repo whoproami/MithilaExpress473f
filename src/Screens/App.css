@@ -1,0 +1,41 @@
+header {
+  background-color: #ff080c;
+  height: 72px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0px 3vw;
+}
+#FooterRight{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+#FooterRight > div:hover{
+   color: white;
+   cursor: pointer;
+}
+#dropbar{
+  padding: 0px 16px;
+}
+
+#Logo {
+   font-size: x-large;
+   font-variant: small-caps;
+   color: rgb(255, 255, 255);
+   font-weight: bold;
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.975);
+  height: 164px;
+}
+
+#body {
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+}
