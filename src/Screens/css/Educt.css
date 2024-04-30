@@ -1,0 +1,21 @@
+#cardsEdu{
+   height: 320px;
+   width: 240px;
+}
+#body{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;  
+    justify-content: space-evenly;
+    align-items: center;
+}
+img{
+    height: 240px;
+    border-radius: 100%;
+    width:  240px;
+    background-color: brown;
+}
+#cardsEdu > p{
+    font-size: larger;
+    text-align: center;
+}  
