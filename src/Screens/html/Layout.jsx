@@ -1,21 +1,24 @@
-import { Outlet } from "react-router-dom";
+import { Link, NavLink, Outlet } from "react-router-dom";
 import  '../css/App.css';
 function Layout() {
    return (
      <>
        <header>
-                <span id="Logo">
+                <NavLink id="navlin" to="/" ><span id="Logo">
                 hamrosikshya.online
-                </span>
+                </span></NavLink>
                 <div id="FooterRight">
                 <div>
-                  Study Materials
+                   <NavLink id="navlin" to="StudyMaterials">Study Materials</NavLink>
                 </div>
                 <div id="dropbar">
-                  Vaccines and Examdates
+                  <NavLink id="navlin" to="Vacency_ExamDates">Vaccines and Examdates</NavLink>
+                </div>
+                <div id="dropbar">
+                  <NavLink id="navlin" to="Educator">Educator</NavLink>
                 </div>
                 <div>
-                  About us
+                  <NavLink id="navlin">About us</NavLink>
                 </div>
                 </div>
 

@@ -32,4 +32,16 @@ footer {
 }
 
 
+#navlin{
+  text-decoration: none;
+  color: black;
+}
 
+#navlin:hover {
+  color: rgb(255, 255, 255);
+}
+
+#navlin:active {
+  color: rgb(176, 176, 176);
+  
+}

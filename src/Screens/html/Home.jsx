@@ -7,18 +7,18 @@ function Home() {
             <main>
                 <div className="cards">
                 <div>
-                    <Link to="studyMaterials">
+                    <Link id="navlin" to="studyMaterials">
                     <h3>Study Materials</h3>  
 
                     </Link>
                 </div>
                 <div>
-                    <Link to="Vacency_ExamDates">
+                    <Link id="lin" to="Vacency_ExamDates">
                  <h3>Vaccines and Examdates</h3> 
                  </Link>
                 </div>
                 <div>
-                    <Link to ="Educator">
+                    <Link id="lin" to ="Educator">
                     <h3>Educator</h3>
                     </Link>
                 </div>
