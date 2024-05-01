@@ -14,10 +14,10 @@ function Layout() {
                 <div id="dropbar">
                   <NavLink id="navlin" to="Vacency_ExamDates">Vaccines and Examdates</NavLink>
                 </div>
-                <div id="dropbar">
+                <div >
                   <NavLink id="navlin" to="Educator">Educator</NavLink>
                 </div>
-                <div>
+                <div id="dropbar">
                   <NavLink id="navlin">About us</NavLink>
                 </div>
                 </div>

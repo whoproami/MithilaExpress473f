@@ -1,11 +1,12 @@
 header {
   background-color: #ff080c;
-  height: 72px;
+  height: 80px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding: 0px 3vw;
 }
+
 #FooterRight{
   display: flex;
   flex-direction: row;
@@ -20,15 +21,15 @@ header {
 }
 
 #Logo {
-   font-size: x-large;
+   font-size: xx-large;
    font-variant: small-caps;
-   color: rgb(255, 255, 255);
    font-weight: bold;
-}
+  }
 
 footer {
   background-color: rgba(0, 0, 0, 0.975);
   height: 164px;
+  
 }
 
 

@@ -6,18 +6,18 @@ function Home() {
           
             <main>
                 <div className="cards">
-                <div>
+                <div class="card">
                     <Link id="navlin" to="studyMaterials">
                     <h3>Study Materials</h3>  
 
                     </Link>
                 </div>
-                <div>
+                <div class="card">
                     <Link id="lin" to="Vacency_ExamDates">
                  <h3>Vaccines and Examdates</h3> 
                  </Link>
                 </div>
-                <div>
+                <div class="card">
                     <Link id="lin" to ="Educator">
                     <h3>Educator</h3>
                     </Link>
