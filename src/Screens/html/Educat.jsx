@@ -1,8 +1,9 @@
 import '../css/App.css';
 import '../css/Educt.css'
 function Educat() {
-    return (<div id="body">
+    return (<div id="body" >
         <h1>Studt Material Curated by Educator</h1>
+        <div id="cardbody">
         <div id="cardsEdu">
             <img src="" alt="" />
             <p>ANC Kumar</p>
@@ -18,6 +19,7 @@ function Educat() {
         <div id="cardsEdu">
             <img src="" alt="" />
             <p>Mohan Kumar</p>
+        </div>
         </div>
     </div>);
 }
