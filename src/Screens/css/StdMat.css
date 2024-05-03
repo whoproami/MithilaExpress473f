@@ -1,0 +1,28 @@
+.std-mat{
+    height: 320px;
+    width: 640px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.course >  a{
+    color: chocolate;
+    font-size: xx-large;
+}
+#bdy{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+.course-details{
+    height: 120px;
+    width: 40vw;
+    background-color: rosybrown;
+    border-radius: 12px;
+    
+}

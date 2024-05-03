@@ -12,23 +12,24 @@ const data = [
 
 function VacExam(){
     return(<div id="body">
-       <table cellSpacing="20px" >
-        <tr>
-          <th>Sno.</th>
-          <th id='detail'>Detail</th>
-          <th>Visit</th>
+       <table>
+    <thead>
+      <tr>
+        <th>Sno.</th>
+        <th id='detail'>Detail</th>
+        <th>Visit</th>
+      </tr>
+    </thead>
+    <tbody>
+      {data.map((data, index) => (
+        <tr key={index}>
+          <td>{data.sno}</td>
+          <td>{data.Details}</td>
+          <td><a href={data.href}>{data.href}</a></td>
         </tr>
-        {
-          data.map((data)=>{
-            return (
-            <tr>
-            <td>{data.sno}</td>
-            <td>{data.Details}</td>
-            <td><a href={data.href}>{data.href}</a></td>
-            </tr>)
-          })
-        }
-       </table>
+      ))}
+    </tbody>
+  </table>
     </div>)
 }
 export default VacExam;

@@ -14,7 +14,7 @@ function Layout() {
                 <div id="dropbar">
                   <NavLink id="navlin" to="Vacency_ExamDates">Vaccines and Examdates</NavLink>
                 </div>
-                <div >
+                <div>
                   <NavLink id="navlin" to="Educator">Educator</NavLink>
                 </div>
                 <div id="dropbar">

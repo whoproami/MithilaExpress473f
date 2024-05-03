@@ -5,7 +5,7 @@
   main{
     padding: 0px 3vw;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
   
   }
@@ -21,31 +21,38 @@
   color: black;
 }
 
-  
+img{
+   height: 32px;
+   width: 32px;
+}
 
   #body {
     height: 100vh;
-  
+    padding: 8%;
+    background-image: linear-gradient(red, rgb(144, 235, 255)); 
+    
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     
   }
-  img{
-    height: 320px;
-    width: 420px;
-    margin: 16px;
+  #imga{
+    height: 480px;
+    width: 560px;
+    border-radius: 8px;
+    box-shadow: 5px white transparent;
   }
   
   .cards{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
   
   }
   .cards > div{
     background-color: rgb(233, 233, 233);
     width: 320px;
-    height: 200px;
+    height: 240px;
     margin: 2% 1% ;
     padding: 16px;
   }
@@ -59,9 +66,14 @@
     margin: auto;
     text-align: center;
 }
+#lin > img {
+  height: 180px;
+  width: 100%;
+}
 
 .card:hover {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transform: translate(0px ,8px);
 }
 
 .card a {
@@ -74,7 +86,10 @@
     color: #444;
 }
 #DescText{
-    width: 72vw;
-    font-size: larger;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
+    width: 77vw;
+    font-size: x-large;
+    margin: 80px;
+    color: rgb(0, 0, 0);
+    text-shadow: 4px white;
+    
+  }

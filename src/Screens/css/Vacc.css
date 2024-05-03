@@ -9,10 +9,29 @@
 #detail{
     width: 48vw;
  }
-table ,th,td{
-    border: 2px solid;
+ table {
+    width: 96%;
     border-collapse: collapse;
-    padding: 8px;
-    
-}
+    margin-bottom: 20px;
+    height: 72vh;
+    font-size: larger;
+  }
+  th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  th {
+    background-color: #f2f2f2;
+  }
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  tr:hover {
+    background-color: #ddd;
+  }
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
 
