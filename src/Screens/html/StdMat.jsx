@@ -16,6 +16,9 @@ const StdMat = () => {
         <div key={course.title} className="course"> {/* Add a class name for styling */}
           <a href="#">{course.title}</a>
           <div className="course-details"> {/* Add a class name for styling */}
+            {
+              
+            }
             {/* Add logic to display course details if populated */}
           </div>
         </div>

@@ -19,15 +19,11 @@ img{
    width: 32px;
 }
 
-  /* #body {
-    height: 101vh;
+  #Hbody {
     padding: 8%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
     font-family: MainFont;
 
-  } */
+  } 
   #imga{
     height: 480px;
     width: 560px;
@@ -96,5 +92,5 @@ img{
   }
   #section2 > img{
     width: 32vw;
-    height: 46vh;
+    height: 52vh;
   }

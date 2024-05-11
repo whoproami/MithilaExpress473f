@@ -5,14 +5,14 @@ function Layout() {
      <>
        <header>
                 <NavLink id="navlin" to="/" ><span id="Logo">
-                hamrosikshya.online
+                NepalUnacademy
                 </span></NavLink>
                 <div id="FooterRight">
                 <div id="dropbar">
                    <NavLink id="navlin" to="StudyMaterials">Study Materials</NavLink>
                 </div>
                 <div id="dropbar">
-                  <NavLink id="navlin" to="Vacency_ExamDates">Vaccines and Examdates</NavLink>
+                  <NavLink id="navlin" to="Vacency_ExamDates">Vacancy and Examdates</NavLink>
                 </div>
                 <div id="dropbar">
                   <NavLink id="navlin" to="Educator">Educator</NavLink>

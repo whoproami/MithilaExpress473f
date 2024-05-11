@@ -11,7 +11,7 @@ const data = [
 ];
 
 function VacExam(){
-    return(<div id="body">
+    return(<div id="Vacbody">
        <table>
     <thead>
       <tr>
